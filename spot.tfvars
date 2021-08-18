@@ -1,7 +1,6 @@
 aws_region = "eu-central-1"
 azs        = ["eu-central-2a", "eu-central-2b", "eu-central-2c"]
-name       = "eks-spot-tc1"
-kubernetes_version = "1.21"
+name       = "eks-spot-terra1"
 
 tags = {
   env  = "dev"
@@ -12,7 +11,7 @@ tags = {
 
 node_groups = [
   {
-    name          = "spot"
+    name           = "spot"
     min_size      = 1
     max_size      = 3
     desired_size  = 1
