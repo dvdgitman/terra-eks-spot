@@ -4,8 +4,6 @@
 .terraform.tfstate.lock.info
 terraform.tfstate.backup
 terraform.tfstate
-# Local .terraform directories
-**/.terraform/*
 
 # .tfstate files
 *.tfstate
