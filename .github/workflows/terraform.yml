@@ -23,4 +23,4 @@ jobs:
         uses: netf/helm-eks-action@v1
         with:
           cluster-name: eks-spot-terra1
-          command: helm install ./host
+          command: helm install --generate-name ./host
